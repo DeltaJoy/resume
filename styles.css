@@ -114,11 +114,11 @@ span {
     font-weight: 700;
 }
 
-a {
+button {
     color: #99d930;
 }
 
-a:hover {
+button:hover {
     color: #3fa74d;
 }
 
@@ -126,10 +126,20 @@ a:hover {
     background-color: #99d930;
     color: #252525;
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 10px 35px;
     border-radius: 5px;
     display: inline-block;
-    
+    border: solid 1px #99d930;
+
+}
+
+a {
+    color: #99d930;
+
+}
+
+a:hover {
+    color: #80b827;
 }
 
 .btn:hover {
@@ -142,14 +152,55 @@ a:hover {
 .inverse_btn {
     background-color: #99d930;
     color: #252525;
+    border: 1px solid #99d930;
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 10px 35px;
     border-radius: 5px;
     display: inline-block;
+    margin-bottom: 20px;
 }
 .inverse_btn:hover {
     background-color: #252525;
     color: #FFF;
+    border: 1px solid #252525;
 
 
+
+}
+
+/* --------------------------------MODAL EDUCATION------------------------------- */
+
+
+#openedModal_Education {
+    background-color: white;
+    max-width: 450px;
+    margin: auto;
+    border: solid 1px black;
+    border-radius: 5px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+
+    
+
+
+}
+
+#overlay {
+    display: none;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+h5 {
+    margin: 10px 0;
 }
